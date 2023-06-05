@@ -1,9 +1,10 @@
 import React from "react";
 import { Button } from "@mui/material";
+import "./LandingPage.css";
 
 export default function LandingPage({ navigate }) {
     return (
-        <div>
+        <div id={"btn-container"}>
             <Button
                 className={"btn"}
                 variant="outlined"
