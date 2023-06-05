@@ -3,7 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import JournalEntry from "./components/Pages/JournalEntry.js";
 import LandingPage from "./components/Pages/LandingPage.js";
-import { Typography } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 import ScWidget from "./components/Widgets/ScWidget.js";
 const { useNavigate } = require("react-router-dom");
 
@@ -11,9 +11,14 @@ function App() {
     const navigate = useNavigate();
     return (
         <div className="App">
-            <Typography className={"site-header"} variant={"h1"}>
-                Jake's Tech Journal
-            </Typography>
+            <Box>
+                <Typography className={"site-header"} variant={"h1"}>
+                    Jake's Tech Journal
+                </Typography>
+                <Typography className={"site-header-top"} variant={"h1"}>
+                    Jake's Tech Journal
+                </Typography>
+            </Box>
             <Routes>
                 <Route
                     path="/"
