@@ -1,18 +1,22 @@
-import { Button } from "@mui/material";
+import { Box, Button, Typography } from "@mui/material";
 import React from "react";
+import "./JournalEntry.css";
+
 const { useNavigate } = require("react-router-dom");
 
 export default function JournalEntry(props) {
     const navigate = useNavigate();
 
     return (
-        <div>
-            <h1>{props.title}</h1>
-            <h4>{props.date}</h4>
-            <p>{props.body}</p>
+        <Box className={"journal-entry"}>
+            <Typography variant={"h3"}>{props.title}</Typography>
+            <Typography variant={"h6"}>{props.date}</Typography>
+            <Typography className={"entry-body"} variant={"p"}>
+                {props.body}
+            </Typography>
             <Button className={"btn"} onClick={() => navigate("/")}>
                 Back
             </Button>
-        </div>
+        </Box>
     );
 }
