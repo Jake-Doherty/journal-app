@@ -3,13 +3,17 @@ import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import JournalEntry from "./components/Pages/JournalEntry.js";
 import LandingPage from "./components/Pages/LandingPage.js";
+import { Typography } from "@mui/material";
+import ScWidget from "./components/Widgets/ScWidget.js";
 const { useNavigate } = require("react-router-dom");
 
 function App() {
     const navigate = useNavigate();
     return (
         <div className="App">
-            <h1>{`Jake's Tech Journal`}</h1>
+            <Typography className={"site-header"} variant={"h1"}>
+                Jake's Tech Journal
+            </Typography>
             <Routes>
                 <Route
                     path="/"
@@ -55,6 +59,8 @@ function App() {
                     }
                 />
             </Routes>
+
+            <ScWidget />
         </div>
     );
 }
