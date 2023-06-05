@@ -2,7 +2,7 @@ import React from "react";
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import JournalEntry from "./components/Pages/JournalEntry.js";
-import LandingPage from "./components/LandingPage.js";
+import LandingPage from "./components/Pages/LandingPage.js";
 const { useNavigate } = require("react-router-dom");
 
 function App() {
@@ -39,7 +39,18 @@ function App() {
                             navigate={navigate}
                             title={"day2"}
                             date={"2023-06-05"}
-                            body={`Heading up to Portland today while my wife gets a massage, looking forward to getting some work done in a coffee shop, and enjoying the city. I'm hoping to get some more work done on this site, and maybe even get some more work done on my other project. Should have taken advantage of the coffee shops while I lived up there...`}
+                            body={`Heading up to Portland today while my wife gets a massage, looking forward to getting some work done in a coffee shop, and enjoying the city. I'm hoping to get some more work done on this site, and maybe even get some more work done on my other project. Should have taken advantage of the coffee shops while I lived up there...Update: ended up staying home and taking care of some chores, but I did get some work done on the site.`}
+                        />
+                    }
+                />
+                <Route
+                    path="/day3"
+                    element={
+                        <JournalEntry
+                            navigate={navigate}
+                            title={"day3"}
+                            date={"2023-06-06"}
+                            body={``}
                         />
                     }
                 />
