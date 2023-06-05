@@ -9,7 +9,7 @@ import React from "react";
 export default function ScWidget() {
     return (
         <>
-            <Accordion id="sc-widget">
+            <Accordion disableGutters id="sc-widget">
                 <AccordionSummary>
                     <Typography>SoundCloud Player</Typography>
                 </AccordionSummary>
