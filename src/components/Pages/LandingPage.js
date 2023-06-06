@@ -1,10 +1,10 @@
 import React from "react";
-import { Button } from "@mui/material";
+import { Button, Box } from "@mui/material";
 import "./LandingPage.css";
 
 export default function LandingPage({ navigate }) {
     return (
-        <div id={"btn-container"}>
+        <Box component={"div"} id={"btn-container"}>
             <Button
                 className={"btn"}
                 variant="outlined"
@@ -26,6 +26,6 @@ export default function LandingPage({ navigate }) {
             >
                 day3
             </Button>
-        </div>
+        </Box>
     );
 }
