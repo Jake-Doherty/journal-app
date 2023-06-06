@@ -4,13 +4,20 @@ import {
     AccordionSummary,
     Typography,
 } from "@mui/material";
+import { ExpandLess } from "@mui/icons-material";
 import React from "react";
 
 export default function ScWidget() {
     return (
         <>
             <Accordion disableGutters id="sc-widget">
-                <AccordionSummary>
+                <AccordionSummary
+                    expandIcon={
+                        <ExpandLess
+                            sx={{ color: "white", fontSize: "2.5rem" }}
+                        />
+                    }
+                >
                     <Typography>SoundCloud Player</Typography>
                 </AccordionSummary>
                 <AccordionDetails>
