@@ -1,0 +1,25 @@
+{
+    "entries": [
+        {
+            "id": 1,
+            "title": "day1",
+            "date": "2023-06-04",
+            "body": "well... it's 11 0'clock at night and of course I'm starting yet another project. I'm feeling confident this will be something I follow through with some consistency. More structure and maybe some fun stuff will be added to the site to keep me entertained and motivated. I'm excited to see where this goes, and what these pages will hold!",
+            "tags": ["first", "day", "entry"]
+        },
+        {
+            "id": 2,
+            "title": "day2",
+            "date": "2023-06-05",
+            "body": "Heading up to Portland today while my wife gets a massage, looking forward to getting some work done in a coffee shop, and enjoying the city. I'm hoping to get some more work done on this site, and maybe even get some more work done on my other project. Should have taken advantage of the coffee shops while I lived up there...Update: ended up staying home and taking care of some chores, but I did get some work done on the site.",
+            "tags": ["first", "day", "entry"]
+        },
+        {
+            "id": 3,
+            "title": "day3",
+            "date": "2023-06-06",
+            "body": "Had a fairly good day, even though I felt really distracted. Figured out some more information about serverless functions and how we might build our app out more server-side in order to keep information more secure. I know it's only Tuesday, but I'm really looking forward to Friday when Tyler, Kevin, and I can all work together on our demo(that's coming together nicely).",
+            "tags": ["first", "day", "entry"]
+        }
+    ]
+}

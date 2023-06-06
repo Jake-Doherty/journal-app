@@ -4,15 +4,15 @@ import "./JournalEntry.css";
 
 const { useNavigate } = require("react-router-dom");
 
-export default function JournalEntry(props) {
+export default function JournalEntry({ title, date, body }) {
     const navigate = useNavigate();
 
     return (
         <Box className={"journal-entry"}>
-            <Typography variant={"h3"}>{props.title}</Typography>
-            <Typography variant={"h6"}>{props.date}</Typography>
+            <Typography variant={"h3"}>{title}</Typography>
+            <Typography variant={"h6"}>{date}</Typography>
             <Typography className={"entry-body"} variant={"p"}>
-                {props.body}
+                {body}
             </Typography>
             <Button className={"btn"} onClick={() => navigate("/")}>
                 Back
