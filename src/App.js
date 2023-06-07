@@ -4,7 +4,6 @@ import "./App.css";
 import JournalEntry from "./components/Pages/JournalEntry.js";
 import LandingPage from "./components/Pages/LandingPage.js";
 import { Box } from "@mui/material";
-import ScWidget from "./components/Widgets/ScWidget.js";
 const { entries } = require("../src/journal-entries/6-2023.json");
 
 function App() {
@@ -29,8 +28,6 @@ function App() {
                     );
                 })}
             </Routes>
-
-            <ScWidget />
         </Box>
     );
 }
