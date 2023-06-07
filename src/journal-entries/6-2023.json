@@ -4,22 +4,85 @@
             "id": 1,
             "title": "day1",
             "date": "2023-06-04",
-            "body": "well... it's 11 0'clock at night and of course I'm starting yet another project. I'm feeling confident this will be something I follow through with some consistency. More structure and maybe some fun stuff will be added to the site to keep me entertained and motivated. I'm excited to see where this goes, and what these pages will hold!",
-            "tags": ["first", "day", "entry"]
+            "body": "well... it's 11 0'clock at night and of course I'm starting yet another project. I'm a few weeks in to working more consistently again, and it feels good. I had to take a break for a little bit to collect myself after an incredibly abrupt shut down of the full stack coding bootcamp that I was attending and was nearly 3/4s of he way done (definitely still processing this event). After that I was hit with illness in the family when my father, who had just officially gone into remission from throat cancer, was diagnosed with lung cancer. This was in February, and I am happy to now report that, through some amazing care by his oncologist and the right mix of cancer drugs, the lung cancer is over 50% smaller than it was at his last checkup. Not only that, but all other spots on his lungs had faded and were seeming to be completely gone. That was some good news. I feel a bit of weight lifted of my shoulders, and I am itching to build anything and everything I can. So stoked for what's to come.",
+            "tags": [
+                {
+                    "post": ["good", "cancer", "school", "shutdown"]
+                },
+                {
+                    "mood": ["happy", "excited", "tired", "motivated"]
+                }
+            ]
         },
         {
             "id": 2,
             "title": "day2",
             "date": "2023-06-05",
-            "body": "Heading up to Portland today while my wife gets a massage, looking forward to getting some work done in a coffee shop, and enjoying the city. I'm hoping to get some more work done on this site, and maybe even get some more work done on my other project. Should have taken advantage of the coffee shops while I lived up there...Update: ended up staying home and taking care of some chores, but I did get some work done on the site.",
-            "tags": ["first", "day", "entry"]
+            "body": "Heading up to Portland today while my wife gets a massage, looking forward to getting some work done in a coffee shop, and enjoying the city. I'm hoping to get some more work done on this site, and maybe even get some more work done on my other projects. Should have taken advantage of the coffee shops while I lived up there... Update: ended up staying home and taking care of some chores, but I did get some work done on the site, I added the little soundcloud widget that's tucked in a collapsible accordion element at the bottom of the page. Also worked a little on music, as I put together a few more songs to include in an album I plan to release sometime this year. They're all tracks I've been working on for a few years, but now I'm working on them with a schedule and some expected end result.",
+            "tags": [
+                {
+                    "post": [
+                        "good",
+                        "portland",
+                        "coffee",
+                        "work",
+                        "projects",
+                        "update",
+                        "music",
+                        "soundcloud"
+                    ]
+                },
+                {
+                    "mood": ["happy", "anxious", "tired"]
+                }
+            ]
         },
         {
             "id": 3,
             "title": "day3",
             "date": "2023-06-06",
             "body": "Had a fairly good day, even though I felt really distracted. Figured out some more information about serverless functions and how we might build our app out more server-side in order to keep information more secure. I know it's only Tuesday, but I'm really looking forward to Friday when Tyler, Kevin, and I can all work together on our demo(that's coming together nicely).",
-            "tags": ["first", "day", "entry"]
+            "tags": [
+                {
+                    "post": [
+                        "good",
+                        "serverless functions",
+                        "school",
+                        "shutdown"
+                    ]
+                },
+                {
+                    "mood": ["happy", "distracted", "motivated", "excited"]
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "day4",
+            "date": "2023-06-07",
+            "body": "",
+            "tags": [
+                {
+                    "post": []
+                },
+                {
+                    "mood": []
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "",
+            "date": "2023-06-08",
+            "body": "",
+            "tags": [
+                {
+                    "post": []
+                },
+                {
+                    "mood": []
+                }
+            ]
         }
     ]
 }
