@@ -6,6 +6,7 @@ import {
 } from "@mui/material";
 import { ExpandLess } from "@mui/icons-material";
 import React from "react";
+import "./ScWidget.css";
 
 export default function ScWidget() {
     return (
