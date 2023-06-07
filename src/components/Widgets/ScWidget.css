@@ -1,0 +1,12 @@
+#sc-widget {
+    margin: 0;
+    padding: 0;
+    color: white;
+    backdrop-filter: blur(3px);
+    background-color: transparent;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
