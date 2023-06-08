@@ -60,7 +60,7 @@
             "id": 4,
             "title": "day4",
             "date": "2023-06-07",
-            "body": "Had a pretty good day today, crushing problems and cruising along with our AWS and stripe demo. Tackled actually signing in using cognito user pools, and got verification emails working plus cookies being set for use in our middleware. Really happy with what we accomplished today. Looking forward to hopefully more of the same tomorrow.",
+            "body": "Had a pretty good day today, crushing problems and cruising along with our AWS and stripe demo. Tackled actually signing in using cognito user pools, and got verification emails working plus cookies being set for use in our middleware. Really happy with what we accomplished today. Looking forward to hopefully more of the same tomorrow. For now I'm excited to sit down and relax with my wife and watch the season 16 premiere of It's Always Sunny in Philadelphia.",
             "tags": [
                 {
                     "post": [
