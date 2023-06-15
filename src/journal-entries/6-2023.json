@@ -87,9 +87,9 @@
         },
         {
             "id": 5,
-            "title": "",
+            "title": "day 5",
             "date": "2023-06-08",
-            "body": "",
+            "body": "starting to hit our first speed bumps matching up the shape of the data we want to store with the shape of the data we're getting in responses from AWS Cognito and Stripe. I struggled with this portion in the backend module during school, so it's good to get some practice with something along the lines of a practical application. Definitely helping to form my mental model.",
             "tags": [
                 {
                     "post": []
@@ -101,9 +101,9 @@
         },
         {
             "id": 6,
-            "title": "",
+            "title": "day 6",
             "date": "2023-06-09",
-            "body": "",
+            "body": "spending the next few days away from the computer to try and recharge before getting back to it.",
             "tags": [
                 {
                     "post": []
@@ -115,7 +115,7 @@
         },
         {
             "id": 7,
-            "title": "",
+            "title": "day 7",
             "date": "2023-06-10",
             "body": "",
             "tags": [
@@ -129,7 +129,7 @@
         },
         {
             "id": 8,
-            "title": "",
+            "title": "day 8",
             "date": "2023-06-11",
             "body": "",
             "tags": [
@@ -143,7 +143,7 @@
         },
         {
             "id": 9,
-            "title": "",
+            "title": "day 9",
             "date": "2023-06-12",
             "body": "",
             "tags": [
@@ -157,29 +157,35 @@
         },
         {
             "id": 10,
-            "title": "",
+            "title": "day 10",
             "date": "2023-06-13",
-            "body": "",
+            "body": "ran into some more issues with matching things up, and figuring out exactly how the webhook events work coming from stripe, and how we're going to use the model we have created to insert data based on realtime data from these events.",
             "tags": [
                 {
-                    "post": []
+                    "post": ["stripe", "webhooks", "events"]
                 },
                 {
-                    "mood": []
+                    "mood": ["frustrated", "tired", "anxious"]
                 }
             ]
         },
         {
             "id": 11,
-            "title": "",
+            "title": "day 11",
             "date": "2023-06-14",
-            "body": "",
+            "body": "learned a lot about how cookies work, and how to use them to store information about a user's session. Also learned more about fetch API, and what credentials to use when making requests to the server. Ended up creating an endpoint each for the creation and deletion of cookies, that gets called when a user logs in or out.",
             "tags": [
                 {
-                    "post": []
+                    "post": [
+                        "cookies",
+                        "fetch",
+                        "credentials",
+                        "server",
+                        "session"
+                    ]
                 },
                 {
-                    "mood": []
+                    "mood": ["distracted", "tired", "anxious", "spent"]
                 }
             ]
         },
