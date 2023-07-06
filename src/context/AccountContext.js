@@ -16,7 +16,7 @@ const AccountProvider = ({ children }) => {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const [user, setUser] = useState(null);
-    const [loading, setLoading] = useState(true);
+    const [loading, setLoading] = useState(false);
 
     useEffect(() => {
         try {
@@ -31,7 +31,7 @@ const AccountProvider = ({ children }) => {
         } catch (error) {
             console.error(error);
         }
-        setLoading(false);
+        setTimeout(() => setLoading(false), 2000);
     }, []);
 
     const signUp = async () => {
@@ -44,7 +44,8 @@ const AccountProvider = ({ children }) => {
     };
 
     const signIn = async () => {
-        const maxAge = 60 * 60 * 24 * 7; // 1 week
+        // const maxAge = 60 * 60 * 24 * 7; // 1 week
+        const maxAge = 60 * 60 * 24; // 1 day
         try {
             const user = await signInUser(email, password);
             const resp = await client.auth.getSession();
