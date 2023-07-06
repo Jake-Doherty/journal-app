@@ -1,0 +1,26 @@
+.auth-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#auth-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+
+.auth-input {
+    border: 1px solid #ccc;
+    color: #ccc !important;
+    padding-left: 1rem;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(3px);
+}
+
+.auth-input > input::placeholder {
+    color: #ccc !important;
+}
