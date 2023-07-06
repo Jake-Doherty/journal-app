@@ -4,7 +4,7 @@ import "./Auth.css";
 import { useAccount } from "../../../context/AccountContext.js";
 
 export default function Auth() {
-    const [authType, setAuthType] = useState("signUp");
+    const [authType, setAuthType] = useState("signIn");
 
     const { user, email, setEmail, password, setPassword, signIn, signUp } =
         useAccount();
