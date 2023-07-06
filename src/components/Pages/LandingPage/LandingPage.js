@@ -1,36 +1,33 @@
 import React from "react";
-import { Button, Box, Container } from "@mui/material";
+import { useNavigate } from "react-router-dom";
+import { Box, IconButton } from "@mui/material";
+import LoginIcon from "@mui/icons-material/Login";
+import LogoutIcon from "@mui/icons-material/Logout";
 import "./LandingPage.css";
-import SiteHeader from "../../SiteHeader/SiteHeader.js";
-import ScWidget from "../../Widgets/ScWidget.js";
-const {
-    useNavigate,
-    // useParams
-} = require("react-router-dom");
+import JournalEntriesList from "../JournalEntry/JournalEntriesList.js";
+import { useAccount } from "../../../context/AccountContext.js";
 
-export default function LandingPage({ entries }) {
+export default function LandingPage() {
     const navigate = useNavigate();
-    // const { date } = useParams();
+    const { user, signOut } = useAccount();
+
     return (
         <Box component={"div"} className={"landing-page-container"}>
-            <SiteHeader />
-            <Box max component={"div"}>
-                <Container maxWidth={"md"} id={"btn-container"}>
-                    {entries.map(({ id, date, title }) => {
-                        return (
-                            <Button
-                                key={id}
-                                className={"btn"}
-                                variant="outlined"
-                                onClick={() => navigate(`/${date}`)}
-                            >
-                                {title}
-                            </Button>
-                        );
-                    })}
-                </Container>
+            <JournalEntriesList />
+            <Box>
+                {!user ? (
+                    <IconButton
+                        onClick={() => navigate("/auth")}
+                        className={"login-icon"}
+                    >
+                        <LoginIcon className={"login-icon"} />
+                    </IconButton>
+                ) : (
+                    <IconButton onClick={signOut} className={"login-icon"}>
+                        <LogoutIcon className={"login-icon"} />
+                    </IconButton>
+                )}
             </Box>
-            {/* <ScWidget /> */}
         </Box>
     );
 }
